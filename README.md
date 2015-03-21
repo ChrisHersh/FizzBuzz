@@ -28,8 +28,8 @@ To compile and run: (Linux is assumed, please update and do a pull request if yo
 		run `mcs csharp.cs`
 		run `mono csharp.exe'
 
-	C:
-		install gcc (probably installed already)
+	C++:
+		install g++/gcc (probably installed already)
 		run `g cpp.cpp o cpp`
 		run `./cpp`
 
