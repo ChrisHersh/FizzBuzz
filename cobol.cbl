@@ -17,14 +17,14 @@
               DISPLAY I WITH NO ADVANCING
               DISPLAY ': ' WITH NO ADVANCING
               EVALUATE TRUE
-                 WHEN FIZZ = 3 AND BUZZ = 5
+                 WHEN FIZZ = 5 AND BUZZ = 3
                     DISPLAY 'FIZZBUZZ'
                     MOVE ZERO TO FIZZ
                     MOVE ZERO TO BUZZ
-                 WHEN FIZZ = 3
+                 WHEN FIZZ = 5
                     DISPLAY 'FIZZ'
                     MOVE ZERO TO FIZZ
-                 WHEN BUZZ = 5
+                 WHEN BUZZ = 3
                     DISPLAY 'BUZZ'
                     MOVE ZERO TO BUZZ
                  WHEN OTHER
